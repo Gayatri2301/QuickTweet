@@ -4,7 +4,7 @@ import Login from './Components/Login'
 const App = () => {
   return (
     <div>
-      <Login/>
+      <h1 className='text-white'>Dashboard</h1>
     </div>
   )
 }

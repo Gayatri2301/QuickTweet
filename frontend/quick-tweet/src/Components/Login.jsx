@@ -1,23 +1,26 @@
 import React from 'react'
-
+  
 const Login = () => {
   return (
-    <div className=''>
-      <div className='flex flex-col justify-center items-center'>
-        <h1 className='mb-5 font-bold'>Login</h1>
+    <div className="flex justify-center items-center py-52">
+    <div className='border rounded-lg p-20 bg-gray-200'>
         <div>
-            <input className='border bg-grey-500 mb-2' type='email' name='email' placeholder='Email'></input>
-        </div>
+        <h1 className='font-bold mb-3 text-2xl flex justify-center h-10'>Login</h1>
         <div>
-            <input className='border bg-grey-500 mb-2' type='password' name='password' placeholder='Password'></input>
+          <input className='border rounded border-gray-500 mb-2 w-64' name='email' placeholder='Email'></input>
         </div>
         <div>
-            <button className='border rounded w-full bg-green-500 mt-2 p-2'>Login</button>
+          <input className='border rounded border-gray-500 mb-3 w-64' name='password' placeholder='Password'></input>
         </div>
+        <div>
+          <button className='border rounded bg-[#22376E] w-full text-white'>Login</button>
         </div>
-            <p>Don't have an account?</p><span><button>Register</button></span>
-        </div>
+        <p>Don't have an account?<span></span></p>
+      </div>
+    </div>
+    </div>
   )
 }
+
 
 export default Login
