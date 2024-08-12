@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/' element={<Login />}></Route>
       <Route path='/signup' element={<Signup />}></Route>
       <Route path='/dashboard' element={<App />}></Route>
-      <Route path='*' element={<h1>Page not found</h1>}></Route>
+      <Route path='*' element={<h1 className='text-white'><img className='w-full' src='404-error.jpg'/></h1>}></Route>
     </Routes>
     </BrowserRouter>
     </div>
